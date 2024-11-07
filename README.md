@@ -4,8 +4,12 @@
 ### WorkShopView.vue <br>
 工作坊頁面切版 <br>
 ### DefaultUi.vue <br>
+<<<<<<< HEAD
 頂部欄、側邊欄、內容區塊整合的複用版面 <br>
 <img src="@/src/assets/other/default.png">
+=======
+把頂部欄、側邊欄、內容區塊整合的複用版面 <br>
+>>>>>>> 126db43dc29079d41e47877a9d2c90fd4292f913
 
 ## src > components
 ### PageControl.vue <br>
@@ -17,7 +21,7 @@
 
 ## src > assets > css
 ### reset.css <br>
-重置樣式的CSS <br>
+重置預設樣式的CSS <br>
 ### workshop-rwd.css <br>
 工作坊RWD的CSS <br>
 ### page-control-rwd.css <br>
