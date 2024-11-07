@@ -6,6 +6,7 @@
 
 ### DefaultUi.vue
 把頂部欄、側邊欄、內容區塊整合的複用版面
+![alt text](src/assets/other/default.png)
 
 ## src > components
 ### PageControl.vue
