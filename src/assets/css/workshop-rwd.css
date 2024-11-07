@@ -1,5 +1,4 @@
 @media screen and (width <= 1200px) {
-
   .work-shop-main-content-container {
     margin: 0px;
     border-radius: 0px;
@@ -74,51 +73,6 @@
   .banner p {
     font-size: 14px;
     line-height: 20px;
-  }
-
-  .work-shop-footer {
-    padding: 80px 16px 176px;
-  }
-
-  .work-shop-footer-flexbox {
-    display: block;
-  }
-
-  .work-shop-footer-flexbox-left {
-    flex-direction: column;
-    margin-bottom: 16px;
-  }
-
-  .work-shop-footer-flexbox-left-item {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .work-shop-footer-flexbox-left-item-title {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
-
-  .work-shop-footer-flexbox-right {
-    justify-content: center;
-  }
-
-  .work-shop-footer-flexbox-right-icon-list {
-    justify-content: center;
-  }
-
-  .work-shop-footer-flexbox-right-icon-list a {
-    background-color: transparent;
-  }
-
-  .work-shop-footer-copyright {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .work-shop-footer-copyright-right span {
-    display: block;
   }
 }
 

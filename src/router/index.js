@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import WorkShopView from '../views/WorkShopView.vue'
+// import HeroMemberView from '@/views/HeroMemberView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       name: 'page-control',
       component: () => import('../components/PageControl.vue'),
     },
+    {
+      path: '/main-footer',
+      name: 'main-footer',
+      component: () => import('../components/MainFooter.vue'),
+    },
     // {
     //   path: '/about',
     //   name: 'about',
@@ -28,6 +34,11 @@ const router = createRouter({
     //   // which is lazy-loaded when the route is visited.
     //   component: () => import('../views/AboutView.vue'),
     // },
+    {
+      path: '/default',
+      name: 'default',
+      component: () => import('../views/DefaultUi.vue'),
+    },
   ],
 })
 
