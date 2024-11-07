@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import WorkShopView from '../views/WorkShopView.vue'
-// import HeroMemberView from '@/views/HeroMemberView.vue'
+import WorkShopView from '@/views/WorkShopView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

@@ -85,6 +85,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .logo img {
