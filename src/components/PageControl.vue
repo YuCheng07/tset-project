@@ -179,4 +179,4 @@
 }
 </style>
 
-<style src="@/assets/page-control-rwd.css" scoped></style>
+<style src="@/assets/css/page-control-rwd.css" scoped></style>

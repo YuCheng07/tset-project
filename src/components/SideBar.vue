@@ -192,4 +192,4 @@
   border-top: 1px solid #3f3f46;
 }
 </style>
-<style src="@/assets/sidebar-rwd.css" scoped></style>
+<style src="@/assets/css/sidebar-rwd.css" scoped></style>

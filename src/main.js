@@ -1,5 +1,5 @@
-import './assets/reset.css'
-import './assets/column.css'
+import './assets/css/reset.css'
+import './assets/css/column.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

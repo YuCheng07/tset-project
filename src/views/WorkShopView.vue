@@ -584,4 +584,4 @@ const workShopFooterData = [
   color: red;
 }
 </style>
-<style src="@/assets/workshop-rwd.css" scoped></style>
+<style src="@/assets/css/workshop-rwd.css" scoped></style>
