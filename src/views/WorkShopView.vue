@@ -389,7 +389,6 @@ const workShopFooterData = [
   text-align: center;
   line-height: 32px;
   font-size: 20px;
-  /* background-color: yellowgreen; */
 }
 
 .work-shop-item-content span {
@@ -450,7 +449,6 @@ const workShopFooterData = [
 .work-shop-footer-flexbox-left-item-title {
   width: 100%;
   color: white;
-  /* font-weight: 700; */
   line-height: 24px;
 }
 

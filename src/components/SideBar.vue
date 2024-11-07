@@ -168,15 +168,15 @@
   font-weight: 700;
   padding: 0px 0px 0px 8px;
   margin: 16px 0px 0px -8px;
-  /* background-color: white; */
-  /* color: black; */
   border-radius: 8px;
+  background-image: linear-gradient(to right, #a955f6, #ec499a);
+  color: white;
 }
 
 .translate-btn:hover {
   color: white;
   cursor: pointer;
-  background-image: linear-gradient(to right, #a955f6, #ec499a);
+  /* background-image: linear-gradient(to right, #a955f6, #ec499a); */
 }
 
 .translate-btn span {
