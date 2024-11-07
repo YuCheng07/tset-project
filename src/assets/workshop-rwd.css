@@ -30,7 +30,7 @@
     left: 0;
     width: 100%;
     height: 150%;
-    background-image: linear-gradient(to bottom, transparent , #000 45%);
+    background-image: linear-gradient(to bottom, transparent, #000 45%);
     z-index: -99;
     opacity: 0.94;
   }
@@ -39,13 +39,21 @@
     display: none;
   }
 
+  .menu-item:nth-child(6) {
+    display: block;
+  }
+
+  .menu-item:nth-child(7) {
+    display: block;
+  }
+
   .menu-item a {
     display: flex;
     flex-direction: column;
     gap: 4px;
   }
 
-  .menu-item a p{
+  .menu-item a p {
     font-size: 9px;
     line-height: 13.5px;
   }
@@ -185,7 +193,7 @@
 }
 
 @media screen and (width <= 768px) {
-    .work-shop-group {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .work-shop-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
