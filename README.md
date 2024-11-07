@@ -5,7 +5,7 @@
 工作坊頁面切版 <br>
 ### DefaultUi.vue <br>
 頂部欄、側邊欄、內容區塊整合的複用版面 <br>
-<img src="@/src/assets/other/default.png">
+<img src="@/assets/other/default.png">
 
 把頂部欄、側邊欄、內容區塊整合的複用版面 <br>
 
