@@ -127,7 +127,7 @@
 }
 
 .page-control-status-btn {
-  width: 92px;
+  max-width: 500px;
   height: 32px;
   display: flex;
   align-items: center;
@@ -135,6 +135,8 @@
   gap: 4px;
   border-radius: 92px;
   background-color: rgb(18, 18, 18, 0.6);
+  box-sizing: border-box;
+  padding: 0 4px;
   transition: background-color 0.2s ease-in-out;
 }
 
@@ -149,7 +151,6 @@
   height: 24px;
   text-align: center;
   line-height: 24px;
-  margin: 0 2px;
   font-size: 14px;
   background-color: black;
   border-radius: 50%;
@@ -157,7 +158,7 @@
 }
 
 .page-control-status-btn-text {
-  width: 28px;
+  min-width: 24px;
   text-align: center;
   font-size: 14px;
   color: white;

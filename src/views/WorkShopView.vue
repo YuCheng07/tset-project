@@ -251,6 +251,8 @@ const workShopFooterData = [
 .user-info-box-left-login-text {
   font-size: 16px;
   line-height: 24px;
+  font-weight: 700;
+  opacity: 0.7;
 }
 
 .user-info-box-right {
@@ -292,6 +294,8 @@ const workShopFooterData = [
 .hero-member-box-left-login-text {
   font-size: 16px;
   line-height: 24px;
+  font-weight: 700;
+  opacity: 0.7;
 }
 
 .hero-member-box-right {
