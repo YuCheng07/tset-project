@@ -10,6 +10,16 @@ const router = createRouter({
       name: 'workshop',
       component: WorkShopView,
     },
+    {
+      path: '/sidebar',
+      name: 'sidebar',
+      component: () => import('../components/SideBar.vue'),
+    },
+    {
+      path: '/page-control',
+      name: 'page-control',
+      component: () => import('../components/PageControl.vue'),
+    },
     // {
     //   path: '/about',
     //   name: 'about',
