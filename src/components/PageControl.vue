@@ -39,7 +39,7 @@
 }
 
 .page-control {
-  width: calc(100% - 342px);
+  width: calc(100% - 326px);
   padding: 16px 0px;
   display: flex;
   align-items: center;
