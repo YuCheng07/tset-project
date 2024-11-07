@@ -4,7 +4,7 @@
 ### WorkShopView.vue <br>
 工作坊頁面切版 <br>
 ### DefaultUi.vue <br>
-把頂部欄、側邊欄、內容區塊整合的版面 <br>
+把頂部欄、側邊欄、內容區塊整合的複用版面 <br>
 
 ## src > components
 ### PageControl.vue <br>
