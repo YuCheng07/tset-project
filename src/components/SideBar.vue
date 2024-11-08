@@ -266,14 +266,6 @@
     box-sizing: border-box;
   }
 
-  .w-7 {
-    width: 1.75rem;
-  }
-
-  .h-7 {
-    height: 1.75rem;
-  }
-
   .sidebar-menu li h2 {
     font-size: 9px;
   }
@@ -286,15 +278,7 @@
     padding: 8px 12px 12px;
     box-sizing: border-box;
   }
-
-  .sidebar-menu a:hover h2 {
-    color: white;
-  }
-
-  .sidebar-menu a:hover svg {
-    stroke: white;
-  }
-
+  
   #translate-btn {
     display: none;
   }
