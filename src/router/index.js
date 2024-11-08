@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import WorkShopView from '@/views/WorkShopView.vue'
+import HeroMemberView from '@/views/HeroMemberView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,6 +38,11 @@ const router = createRouter({
       path: '/default',
       name: 'default',
       component: () => import('../views/DefaultUi.vue'),
+    },
+    {
+      path: '/hero-member',
+      name: 'hero-member',
+      component: HeroMemberView,
     },
   ],
 })

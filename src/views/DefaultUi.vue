@@ -60,4 +60,10 @@ import MainFooter from '@/components/MainFooter.vue'
   width: 100%;
   box-sizing: border-box;
 }
+
+@media screen and (width <= 1200px) {
+  .default-main-content-container {
+    margin: 0px;
+  }
+}
 </style>
