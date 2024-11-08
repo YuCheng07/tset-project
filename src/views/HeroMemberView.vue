@@ -45,8 +45,8 @@ watch(scrollPosition, (newValue, oldValue) => {
   <div class="hero-member-page-container">
     <SideBar />
     <div class="hero-member-main-content-container">
-      <header class="work-shop-header">
-        <PageControl />
+      <header class="hero-member-header">
+        <PageControl :style="{ backgroundColor: 'black' }" />
       </header>
       <main class="hero-member-main hero-member-main-animation">
         <section class="hero-member-main-section">
@@ -66,6 +66,11 @@ watch(scrollPosition, (newValue, oldValue) => {
 <style scoped>
 ::-webkit-scrollbar {
   width: 0;
+  height: 0;
+}
+
+.page-control {
+  background-color: black;
 }
 
 .hero-member-page-container {
@@ -90,7 +95,9 @@ watch(scrollPosition, (newValue, oldValue) => {
 .hero-member-header {
   width: 100%;
   box-sizing: border-box;
+  position: relative;
 }
+
 
 .hero-member-main {
   width: 100%;
@@ -124,7 +131,7 @@ watch(scrollPosition, (newValue, oldValue) => {
   box-sizing: border-box;
 }
 
-@media screen and (width <= 1200px) {
+@media screen and (width < 1200px) {
   .hero-member-main-content-container {
     margin: 0px;
   }

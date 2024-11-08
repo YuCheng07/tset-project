@@ -30,7 +30,7 @@
   <div class="page-control-space"></div>
 </template>
 
-<style scoped>
+<style>
 .page-control-container {
   width: 100%;
   position: relative;

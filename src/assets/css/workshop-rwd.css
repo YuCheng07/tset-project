@@ -1,4 +1,4 @@
-@media screen and (width <= 1200px) {
+@media screen and (width < 1200px) {
   .work-shop-main-content-container {
     margin: 0px;
     border-radius: 0px;
@@ -76,7 +76,7 @@
   }
 }
 
-@media screen and (width <= 768px) {
+@media screen and (width < 768px) {
   .work-shop-group {
     grid-template-columns: repeat(2, 1fr);
   }

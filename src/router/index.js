@@ -44,6 +44,11 @@ const router = createRouter({
       name: 'hero-member',
       component: HeroMemberView,
     },
+    {
+      path: '/old-sidebar',
+      name: 'old-sidebar',
+      component: () => import('../components/OldSideBar.vue'),
+    },
   ],
 })
 

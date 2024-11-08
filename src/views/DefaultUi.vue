@@ -24,6 +24,7 @@ import MainFooter from '@/components/MainFooter.vue'
 <style scoped>
 ::-webkit-scrollbar {
   width: 0;
+  height: 0;
 }
 
 .default-page-container {
@@ -61,7 +62,7 @@ import MainFooter from '@/components/MainFooter.vue'
   box-sizing: border-box;
 }
 
-@media screen and (width <= 1200px) {
+@media screen and (width < 1200px) {
   .default-main-content-container {
     margin: 0px;
   }

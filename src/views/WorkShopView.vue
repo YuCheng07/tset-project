@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-free/js/all.js'
 import SideBar from '@/components/SideBar.vue'
 import PageControl from '@/components/PageControl.vue'
 import MainFooter from '@/components/MainFooter.vue'
+import OldSideBar from '@/components/OldSideBar.vue'
 
 const workShopData = [
   {
@@ -100,14 +101,16 @@ const workShopData = [
 <style scoped>
 ::-webkit-scrollbar {
   width: 0;
+  height: 0;
 }
 
 .work-shop-page-container {
   background-color: black;
   max-width: 100%;
-  height: 100vh;
+  max-height: 100vh;
   display: flex;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .work-shop-main-content-container {
