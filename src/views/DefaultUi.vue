@@ -62,7 +62,11 @@ import MainFooter from '@/components/MainFooter.vue'
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 @media screen and (width < 1200px) {
+=======
+@media screen and (width <= 1200px) {
+>>>>>>> bfe2619a946cb5f5a6c1726dbccc7d5cdf2b102e
   .default-main-content-container {
     margin: 0px;
   }
