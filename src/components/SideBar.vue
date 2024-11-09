@@ -173,6 +173,15 @@
   width: 238px;
   height: 40px;
   margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.sidebar-menu li:hover a h2 {
+  color: white;
+}
+
+.sidebar-menu li:hover a svg {
+  stroke: white;
 }
 
 .w-7 {
@@ -190,6 +199,8 @@
 }
 
 .sidebar-menu a {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   text-decoration: none;

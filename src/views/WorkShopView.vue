@@ -43,19 +43,19 @@ const workShopData = [
       </header>
       <main class="work-shop-main">
         <div class="user-nav">
-          <div class="user-info-box">
+          <a href="#" class="user-info-box">
             <div class="user-info-box-left-icon">
               <i class="fa-regular fa-user"></i>
             </div>
-            <div class="user-info-box-left-login-content">
+            <div href="#" class="user-info-box-left-login-content">
               <div class="user-info-box-left-login-title">登入帳號</div>
               <div class="user-info-box-left-login-text">前往登入</div>
             </div>
             <div class="user-info-box-right">
               <i class="fa-solid fa-arrow-right"></i>
             </div>
-          </div>
-          <div class="hero-member-box">
+          </a>
+          <a href="#" class="hero-member-box">
             <div class="hero-member-box-left-icon">
               <i class="fa-solid fa-star"></i>
             </div>
@@ -66,7 +66,7 @@ const workShopData = [
             <div class="hero-member-box-right">
               <i class="fa-solid fa-arrow-right"></i>
             </div>
-          </div>
+          </a>
         </div>
         <div class="work-shop-title">
           <h2>工作坊</h2>
@@ -135,7 +135,7 @@ const workShopData = [
 }
 
 .user-nav {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   gap: 24px;
 }
@@ -148,10 +148,8 @@ const workShopData = [
   display: flex;
   justify-content: space-between;
   align-items: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .user-info-box-left-icon {
@@ -162,12 +160,14 @@ const workShopData = [
   text-align: center;
   line-height: 80px;
   font-size: 50px;
+  color: white;
 }
 
 .user-info-box-left-login-title {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
+  color: white;
 }
 
 .user-info-box-left-login-text {
@@ -175,6 +175,7 @@ const workShopData = [
   line-height: 24px;
   font-weight: 700;
   opacity: 0.7;
+  color: white;
 }
 
 .user-info-box-right {
@@ -185,6 +186,7 @@ const workShopData = [
   background-color: #35b9d5;
   border-radius: 50%;
   font-size: 30px;
+  color: white;
 }
 
 .hero-member-box {
@@ -195,7 +197,8 @@ const workShopData = [
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .hero-member-box-left-icon {
@@ -211,6 +214,7 @@ const workShopData = [
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
+  color: white;
 }
 
 .hero-member-box-left-login-text {
@@ -218,6 +222,7 @@ const workShopData = [
   line-height: 24px;
   font-weight: 700;
   opacity: 0.7;
+  color: white;
 }
 
 .hero-member-box-right {
@@ -228,6 +233,7 @@ const workShopData = [
   background-color: #dfaf30;
   border-radius: 50%;
   font-size: 30px;
+  color: white;
 }
 
 .work-shop-title {
@@ -341,6 +347,5 @@ const workShopData = [
   line-height: 28px;
   color: rgb(229, 231, 235);
 }
-
 </style>
 <style src="@/assets/css/workshop-rwd.css" scoped></style>
