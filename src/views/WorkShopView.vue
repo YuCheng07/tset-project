@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-free/js/all.js'
 import SideBar from '@/components/SideBar.vue'
 import PageControl from '@/components/PageControl.vue'
 import MainFooter from '@/components/MainFooter.vue'
+import router from '@/router'
 
 const workShopData = [
   {
@@ -32,6 +33,9 @@ const workShopData = [
     icon: 'fa-solid fa-cube',
   },
 ]
+
+
+
 </script>
 
 <template>
@@ -55,7 +59,7 @@ const workShopData = [
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </a>
-          <a href="#" class="hero-member-box">
+          <router-link to="/hero-member" class="hero-member-box">
             <div class="hero-member-box-left-icon">
               <i class="fa-solid fa-star"></i>
             </div>
@@ -66,7 +70,7 @@ const workShopData = [
             <div class="hero-member-box-right">
               <i class="fa-solid fa-arrow-right"></i>
             </div>
-          </a>
+          </router-link>
         </div>
         <div class="work-shop-title">
           <h2>工作坊</h2>

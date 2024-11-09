@@ -4,7 +4,6 @@ import HeroMemberView from '@/views/HeroMemberView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  base: '/group-project/',
   routes: [
     {
       path: '/',
