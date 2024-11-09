@@ -73,7 +73,7 @@ const workShopData = [
           <p>找到你要的工具，發掘更多玩法。</p>
         </div>
         <div class="work-shop-group">
-          <div class="work-shop-outer" v-for="i in workShopData">
+          <a href="#" class="work-shop-outer" v-for="i in workShopData">
             <div class="work-shop-item">
               <img :src="i.imgUrl" alt="" />
               <div class="work-shop-item-content">
@@ -83,7 +83,7 @@ const workShopData = [
                 <span>{{ i.title }}</span>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="banner">
           <h2>如果你有任何酷點子</h2>
@@ -262,7 +262,7 @@ const workShopData = [
 }
 
 .work-shop-outer {
-  /* max-width: 210px; */
+  width: 100%;
   border-radius: 12px;
   color: #d4d4d8;
   overflow: hidden;
