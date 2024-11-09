@@ -1,4 +1,4 @@
-@media screen and (width <= 1200px) {
+@media screen and (width < 1200px) {
   .page-control {
     width: calc(100% - 48px);
   }

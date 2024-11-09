@@ -4,7 +4,6 @@ import '@fortawesome/fontawesome-free/js/all.js'
 import SideBar from '@/components/SideBar.vue'
 import PageControl from '@/components/PageControl.vue'
 import MainFooter from '@/components/MainFooter.vue'
-import OldSideBar from '@/components/OldSideBar.vue'
 
 const workShopData = [
   {

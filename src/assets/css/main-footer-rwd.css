@@ -1,4 +1,4 @@
-@media screen and (width <= 1200px) {
+@media screen and (width < 1200px) {
   .work-shop-footer {
     padding: 80px 16px 176px;
   }
