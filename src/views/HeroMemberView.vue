@@ -65,7 +65,33 @@ const changeFunctionSectionRightMove = (e) => {
               <button class="hero-member-main-function-section-content-item-btn">
                 <i class="fa-solid fa-plus"></i>
               </button>
-              <div class="hero-member-main-function-section-content-item-descri"></div>
+              <input type="checkbox" id="hero-member-main-function-section-content-item-description-box-innerbox-show-check"></input>
+              <div class="hero-member-main-function-section-content-item-description-box" id="hero-member-main-function-section-content-item-description-box">
+                <div class="hero-member-main-function-section-content-item-description-box-innerbox-wrapper" >
+                  <div class="hero-member-main-function-section-content-item-description-box-innerbox">
+                    <label for="hero-member-main-function-section-content-item-description-box-innerbox-show-check">
+                      <div class="hero-member-main-function-section-content-item-description-box-innerbox-close-btn-wrapper">
+                      
+                        <button class="hero-member-main-function-section-content-item-description-box-innerbox-close-btn">
+                          <i class="fa-solid fa-xmark"></i>
+                        </button>
+                      
+                      </div>
+                    </label>
+                    <span>洞見漲跌</span>
+                    <h2>卡片價格趨勢</h2>
+                    <div class="hero-member-main-function-section-content-item-description-box-innerbox-gifbox">
+                      <div class="hero-member-main-function-section-content-item-description-box-innerbox-gifbox-text">
+                        <p>洞悉價格。一覽卡片的漲跌脈動，發現價格的變化趨勢，讓你在交易中更有把握。
+                          點擊卡片詳細，在下方新增了卡價漲跌的圖表，瀏覽近兩週的卡片價格趨勢。</p>
+                      </div>
+                      <div class="hero-member-main-function-section-content-item-description-box-innerbox-gifbox-img" id="hero-member-main-function-section-content-item-description-box-innerbox-gifbox-img">
+                        <img src="@/assets/img/hero-member/card-price-gif.gif" alt="" >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="hero-member-main-function-section-content-item">
               <img src="@/assets/img/hero-member/card-cover.png" alt="" />
@@ -658,6 +684,113 @@ const changeFunctionSectionRightMove = (e) => {
   border: none;
 }
 
+.hero-member-main-function-section-content-item-description-box {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  cursor: default;
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox-wrapper {
+  width: 1000px;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox {
+  width: 100%;
+  margin: 80px 0px;
+  padding: 80px;
+  border-radius: 16px;
+  background-color: rgb(39, 39, 42);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox > span {
+  display: inline-block;
+  line-height: 24px;
+  color: rgb(229, 231, 235);
+  font-weight: 700;
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox > h2 {
+  font-size: 48px;
+  color: white;
+  font-weight: 700;
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox-gifbox {
+  width: 100%;
+  margin-top: 48px;
+  border-radius: 16px;
+  background-color: rgb(24,24,27);
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox-gifbox-text {
+  max-width: 100%;
+  padding: 48px;
+  
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox-gifbox-text > p{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(229, 231, 235);
+  line-height: 28px;
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox-gifbox-img {
+  width: 100%;
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox-gifbox-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox-close-btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: -48px 0px 0px 48px;
+  position: sticky;
+  top: 20px;
+  background-color: wheat;
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox-close-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-member-main-function-section-content-item-description-box-innerbox-close-btn svg {
+  width: 24px;
+  height: 24px;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+#hero-member-main-function-section-content-item-description-box-innerbox-show-check:checked ~ #hero-member-main-function-section-content-item-description-box{
+  display: none;
+}
+
+
 .hero-member-main-function-section-content-last-item {
   min-width: 432px;
   aspect-ratio: 3 / 5;
@@ -679,6 +812,7 @@ const changeFunctionSectionRightMove = (e) => {
   top: 16px;
   left: 16px;
 }
+
 
 .hero-member-main-member-type-section {
   width: 100%;
